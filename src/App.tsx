@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Modal from './Modal';
+import Modal from './components/Modal/Modal';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -12,8 +12,8 @@ function App() {
       <button onClick={handleOpenModal}>Open The Modal</button>
       {isModalOpen && (
         <Modal
-          modalTitle="Enter Your Title"
-          modalText="Enter Your Text"
+          modalTitle="Enter your title"
+          modalText="Enter your text"
           onClose={handleCloseModal}
         />
       )}

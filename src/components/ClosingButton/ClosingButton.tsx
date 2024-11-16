@@ -1,3 +1,5 @@
+import './ClosingButton.css'
+
 interface ClosingButtonProps {
   onClick: () => void;
   closingButtonText: string;

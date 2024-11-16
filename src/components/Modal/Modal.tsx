@@ -1,5 +1,5 @@
-import ClosingButton from './Button';
-import './styles/Modal.css'
+import ClosingButton from '../ClosingButton/ClosingButton';
+import './Modal.css'
 
 interface ModalProps {
   modalTitle: string;
@@ -9,10 +9,10 @@ interface ModalProps {
 
 function Modal({ modalTitle, modalText, onClose }: ModalProps) {
   return (
-    <div className='modal-styles'>
-      <div className='modal-content-styles'>
-        <h2>{modalTitle}</h2>
-        <p>{modalText}</p>
+    <div className='modal'>
+      <div className='modal-content'>
+        <h2 className='modal-title'>{modalTitle}</h2>
+        <p className='modal-text'>{modalText}</p>
         <ClosingButton onClick={onClose} closingButtonText="Close" />
       </div>
     </div>
