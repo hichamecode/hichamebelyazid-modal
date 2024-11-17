@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Modal from './components/Modal/Modal';
+import './App.css';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <button onClick={handleOpenModal}>Open The Modal</button>
+      <button className='test-button' onClick={handleOpenModal}>CLICK TO TEST THE MODAL</button>
       {isModalOpen && (
         <Modal
           modalTitle="Enter your title"

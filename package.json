@@ -1,18 +1,42 @@
 {
   "name": "hichamebelyazid-modal",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A simple and lightweight modal component for React",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hichamecode/hichamebelyazid-modal.git"},
+    "homepage": "https://github.com/hichamecode/hichamebelyazid-modal",
+  "bugs": "https://github.com/hichamecode/hichamebelyazid-modal/issues",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "author": {
+    "name": "Hichame Belyazid",
+    "email": "hichame.code@gmail.com"},
+  "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
+  "tags": [
+    "react",
+    "modal",
+    "dialog",
+    "component"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "modal",
+    "dialog",
+    "lightweight",
+    "simple"
+  ],
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/react": "^18.3.12",

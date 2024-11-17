@@ -1,0 +1,22 @@
+
+.test-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+  height: 200px;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 2em;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #0a84ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.test-button:hover {
+  background-color: #003fdd;
+}
