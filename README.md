@@ -11,6 +11,7 @@ This project provides a _simple_ and _lightweight_ solution for handling your mo
 5. [Examples](#examples)
 6. [License](#license)
 7. [Author](#author)
+8. [Keywords](#keywords)
 
 ##  Installation
 ---
@@ -105,4 +106,9 @@ Feel free to use it and contribute to this library.
 ## Author
 ---
 - **Hichame Belyazid** ([GitHub Profile](https://github.com/hichamecode/))
+
+## Keywords
+---
+**react** - **react-component** - **modal** - **dialog** - **lightweigt** - **simple**
+
 
