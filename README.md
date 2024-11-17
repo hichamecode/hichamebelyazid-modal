@@ -1,4 +1,4 @@
-#  **hichamebelyazid_modal**
+#  **hichamebelyazid-modal**
 ---
 ## Introduction
 ---
@@ -110,5 +110,3 @@ Feel free to use it and contribute to this library.
 ## Keywords
 ---
 **react** - **react-component** - **modal** - **dialog** - **lightweigt** - **simple**
-
-
