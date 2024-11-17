@@ -1,6 +1,6 @@
 {
   "name": "hichamebelyazid-modal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple and lightweight modal component for React",
   "type": "module",
   "repository": {
@@ -17,9 +17,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "main": "dist/index.js",  
-  "module": "dist/index.mjs",  
-  "types": "dist/index.d.ts", 
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "src/components",
