@@ -1,6 +1,5 @@
 {
   "name": "hichamebelyazid-modal",
-  "private": true,
   "version": "1.0.0",
   "description": "A simple and lightweight modal component for React",
   "type": "module",
@@ -15,6 +14,13 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "files": [
+    "dist",
+    "src/components",
+    "src/styles",
+    "src/App.tsx",
+    "srx/App.css"
+  ],
   "author": {
     "name": "Hichame Belyazid",
     "email": "hichame.code@gmail.com"},

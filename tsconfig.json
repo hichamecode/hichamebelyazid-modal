@@ -1,5 +1,18 @@
 {
   "files": [],
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "declaration": true,  // Générez les fichiers .d.ts
+    "outDir": "./dist",  // Le dossier de sortie
+    "rootDir": "./src",  // Dossier source
+    "declarationDir": "./dist",  // Dossier des déclarations de types
+    "allowJs": true
+  },
+  "include": ["src/**/*"],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
