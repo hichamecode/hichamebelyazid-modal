@@ -12,11 +12,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && npm run copy-files",
-    "copy-files": "ncp ./src/components ./dist/components",
+    "copy-files": "mkdir -p dist/components && ncp ./src/components ./dist/components",
     "clean": "rimraf dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "main": "dist/index.js",  
+  "module": "dist/index.mjs",  
+  "types": "dist/index.d.ts", 
   "files": [
     "dist",
     "src/components",
