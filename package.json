@@ -1,12 +1,13 @@
 {
   "name": "hichamebelyazid-modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and lightweight modal component for React",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hichamecode/hichamebelyazid-modal.git"},
-    "homepage": "https://github.com/hichamecode/hichamebelyazid-modal",
+    "url": "https://github.com/hichamecode/hichamebelyazid-modal.git"
+  },
+  "homepage": "https://github.com/hichamecode/hichamebelyazid-modal",
   "bugs": "https://github.com/hichamecode/hichamebelyazid-modal/issues",
   "scripts": {
     "dev": "vite",
@@ -23,7 +24,8 @@
   ],
   "author": {
     "name": "Hichame Belyazid",
-    "email": "hichame.code@gmail.com"},
+    "email": "hichame.code@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
