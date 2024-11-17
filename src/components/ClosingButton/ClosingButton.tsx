@@ -1,4 +1,5 @@
 import './ClosingButton.css'
+import React from 'react'
 
 interface ClosingButtonProps {
   onClick: () => void;

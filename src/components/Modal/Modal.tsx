@@ -1,5 +1,6 @@
 import ClosingButton from "../ClosingButton/ClosingButton";
 import "./Modal.css";
+import React from "react";
 
 interface ModalProps {
   modalTitle: string;
@@ -12,7 +13,7 @@ function Modal({ modalTitle, modalText, onClose }: ModalProps) {
   // this is to close the modal by pressing Esc or Enter key
   const handleKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === 'Escape' || 'Enter') {
-      onClose(); 
+      onClose();
     }
   };
 
